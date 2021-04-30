@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="IRCTC" >
+
+    <listeners>
+        <listener class-name="com.listeners.TestNgListener"/>
+    </listeners>
+
+    <test name="DEMO">
+       <!--<groups>
+            <run>
+                <include name="Regression" />
+            </run>
+        </groups>-->
+
+        <classes>
+            <class name="com.tests.HotelTest" />
+            <class name="com.tests.TourismTest" />
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
